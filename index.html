@@ -1,12 +1,88 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
+<head>
+	<title>~jscd</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	
+	<!-- <link href="/static/css/style.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="/static/css/smallstyle.css" media="screen and (max-width: 725px)" rel="stylesheet" type="text/css">
+	<link href="/static/css/motion.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="/static/css/fonts.css" media="screen" rel="stylesheet" type="text/css"> -->
+	 
+	
+<style>
 
-<h1>Hello, world!</h1>
-<p>Very cool, I have never done anything like this before.
-    Web design has never been my forte. Going to give this a shot, 
-    will be under construction for a while! Requires learning html
+/* poem */
+#poem-container { width: min-content; padding: 0 auto 0; margin: 4px auto 0; }
+#poem-container:hover { width: 10rem; }
+#poem-container #poem { display: none; }
+#poem-container:hover #poem { display: inherit; }
+#poem-container:hover #poem-hover-text { display: none; }
+
+#poem #p1:after { content: "BORN TO DIE"; }
+#poem #p2:after { content: "WORLD IS A FUCK"; }
+#poem #p3:after { content: "鬼神 Kill Em All 1989"; }
+#poem #p4:after { content: "I am trash dragon"; }
+#poem #p5:after { content: "410,757,864,530 DEAD COPS"; }
+
+</style>
+
+</head>
+<body>
+	<header>
+		<h1>The Chase Project</h1>
+	</header>
+	<div class="content">
+		<nav>
+			<ul>
+				<li><a href="/">home</a></li>
+				<li><a href="/blog/">blog</a></li>
+				<li><a href="/travel itineraties/">now</a></li>
+                <li><a href="/book reviews/">now</a></li>
+                <li><a href="/oscar odds/">now</a></li>
+                <li><a href="/photo gallery/">now</a></li>
+				<li><a href="/about/">about</a></li>
+			</ul>
+			<hr>
+			
+		</nav>
+		<main>
+		
+<main>
+	<h2 style="text-align: center"> welcome to my homepage! </h2>
+	<p style="text-align: center"> Take a look around &amp; make yourself comfortable. </p>
+	<hr>
+
+	<h2> status </h2>
+	<div id="statuscafe">
+		<div id="statuscafe-username"></div>
+		<div id="statuscafe-content">
+			
+			<span class="noscript">
+				<span class="load">Loading...</span>
+				<span class="sad"><a href="https://status.cafe/users/jscd">Click here</a> to see my last status post!</span>
+			</span>
+		</div>
+	</div><script src="https://status.cafe/current-status.js?name=jscd" defer></script>
+</main>
+
+		</main>
+	</div>
+	
+<p id="poem-container" style="font-family: WebDosV; font-size:0.95em; text-align: center">
+	<span id="poem-hover-text"> ? </span>
+	<span id="poem">
+		<span id="p1" style="font-size: 1.1em"></span><br/>
+		<span id="p2"></span><br/>
+		<span id="p3"></span><br/>
+		<span id="p4"></span><br/>
+		<span id="p5"></span>
+	</span>
 </p>
 
+	<footer>
+		<p class="copynote">© 2025 jscd – All rights reserved.</p>
+	</footer>
 </body>
 </html>
